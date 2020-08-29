@@ -1,7 +1,8 @@
 all: stop start exec
 
 init:
-	export PROJECT_NAME="web-server"
+	export PROJECT_NAME="omega-project2"
+	export OWNER= "omega"
 	echo "$$OWNER must be set"
 	echo "$$PROJECT_NAME must be set"
 
